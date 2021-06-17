@@ -1,0 +1,27 @@
+
+ul.nav li.dropdown:hover > ul.dropdown-menu{display:block; margin:0;}
+
+/* 날짜 검색 */
+.select_date{
+  display:flex;
+  height:100%;
+  font-size:1.3rem;
+  margin-right:10px;
+}
+/* QnA page 게시글 폰트 &크기*/
+.QnA_table{
+  font-size:16px;
+  font-family: 'SCDream6';
+  text-align:center;
+}
+
+/* QnA페이지 '글쓰기' 버튼및 위치 */
+.footer > .write{
+  position:absolute;
+  right: 25%;
+}
+.footer > .write .btn{
+  font-size:1.7rem;
+}
+
+

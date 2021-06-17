@@ -1,0 +1,28 @@
+
+/* main page */
+
+/*최상단 로고 위치*/
+.Logo{
+  padding-top: 50px;
+}
+/* 카메라 & 파일업로드 부분 */
+.menu{
+  display:flex;
+  justify-content: space-around;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+/*카테고리 이미지, 크기 ,위치 조절*/
+.card{
+  align-items:center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.card-img-top{
+  padding-top:10px;
+  width:150px;
+  height:150px;
+}
+.test{
+  font-size:3rem;
+}

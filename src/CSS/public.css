@@ -1,0 +1,108 @@
+@FONT-FACE{
+    font-family: 'bazzi';
+    src:url("../src/Bazzi.ttf");
+}
+@FONT-FACE{
+    font-family: 'nanumsquare';
+    src:url("../src/nanumsquareb.woff");
+}
+@FONT-FACE{
+    font-family: 'Type_Dodam';
+    src:url("../src/Typo_DodamB.ttf");
+}
+@FONT-FACE{
+    font-family: 'SCDream6';
+    src:url("../src/SCDream6.otf");
+}
+@font-face{
+  font-family: 'blackgodic';
+  src:url("../src/BlackHanSans-Regular.ttf");
+ 
+}
+
+/* 기본폰트 설정*/
+body{
+    font-family: 'nanumsquare';
+  
+  }
+/* 기본 헤더 center*/
+header{
+    text-align: center; 
+}
+/* 네비게이션바 css*/
+.nav-tabs{
+    font-family: "SCDream6";
+    font-size:20px;
+    justify-content: center;
+  }
+/* 카테고리 설명 css*/
+.title{
+  text-align:center;
+  font-size:40px;
+  margin-bottom:15px;
+  margin-top:15px;
+  }
+.title > img{
+  margin-right:10px;
+}
+
+/* 네비게이션바 css*/
+.navigation {
+  margin-top:15px;
+  border-top: 3px solid ;
+  border-bottom: 3px solid ;
+  border-image: linear-gradient(to right, #7ec900, #0480b8);
+  border-image-slice: 1;
+}
+/*모든 컨테이너 위치 및 라인css*/
+.main-border{
+    margin-top:30px;
+    margin-bottom:30px;
+
+    align-items:center;
+    border-top: 3px solid ;
+    border-bottom: 3px solid ;
+    border-image: linear-gradient(to right, #7ec900, #0480b8);
+    border-image-slice: 1;
+}
+/*모든 placeholder 글씨위치 */
+[placeholder]{
+    text-align: center;
+  }
+/* input란 border색상 및 디자인 */
+input[type=text] {
+  border: 1px solid #2f88fc;
+  border-radius: 4px;
+}
+/* Pagination 크기 */
+.footer > ul > li{
+  font-size:1.5rem;
+}
+/* Search 란 css */
+.Search{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+/* Seaech란 검색 input */
+.search_input > input{
+  height:35px;
+  font-size:1.5rem;
+}
+/* Search란 검색 버튼 크기 */ 
+.Search > div > .btn{
+  font-size:1.7rem;
+  margin-left:10px;
+}
+/* footer 위치 */
+.footer{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+thead{
+  text-align:center;
+  font-size:20px;
+}

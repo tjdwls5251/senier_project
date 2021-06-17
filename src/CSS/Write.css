@@ -1,0 +1,30 @@
+
+.Write_table > tbody{
+    text-align: center;
+}
+
+.Write_table textarea {
+    width: 100%;
+    height: 400px;
+}
+.Write_footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Write_footer > .btn{
+    font-size:1.8rem; 
+}
+textarea {
+    border: 1px solid #2f88fc;
+    border-radius: 4px;
+}
+.Write_table{
+    font-size:2rem;
+    
+}
+.Write_table  input{
+    font-size:2rem;
+}
